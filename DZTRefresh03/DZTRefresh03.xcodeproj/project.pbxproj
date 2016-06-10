@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180D9BA31D0AE57C00E2EBFD /* DZTRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D9BA21D0AE57C00E2EBFD /* DZTRefresh.m */; };
 		18A08B161CCE1D5C0089E6AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A08B151CCE1D5C0089E6AE /* main.m */; };
 		18A08B191CCE1D5C0089E6AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A08B181CCE1D5C0089E6AE /* AppDelegate.m */; };
 		18A08B1C1CCE1D5C0089E6AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A08B1B1CCE1D5C0089E6AE /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180D9BA11D0AE57C00E2EBFD /* DZTRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTRefresh.h; sourceTree = "<group>"; };
+		180D9BA21D0AE57C00E2EBFD /* DZTRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTRefresh.m; sourceTree = "<group>"; };
 		18A08B111CCE1D5C0089E6AE /* DZTRefresh03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZTRefresh03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A08B151CCE1D5C0089E6AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A08B171CCE1D5C0089E6AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180D9BA01D0AE56D00E2EBFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				180D9BA11D0AE57C00E2EBFD /* DZTRefresh.h */,
+				180D9BA21D0AE57C00E2EBFD /* DZTRefresh.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		18A08B081CCE1D5C0089E6AE = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		18A08B131CCE1D5C0089E6AE /* DZTRefresh03 */ = {
 			isa = PBXGroup;
 			children = (
+				180D9BA01D0AE56D00E2EBFD /* Classes */,
 				18A08B171CCE1D5C0089E6AE /* AppDelegate.h */,
 				18A08B181CCE1D5C0089E6AE /* AppDelegate.m */,
 				18A08B1A1CCE1D5C0089E6AE /* ViewController.h */,
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180D9BA31D0AE57C00E2EBFD /* DZTRefresh.m in Sources */,
 				18A08B1C1CCE1D5C0089E6AE /* ViewController.m in Sources */,
 				18A08B191CCE1D5C0089E6AE /* AppDelegate.m in Sources */,
 				18A08B161CCE1D5C0089E6AE /* main.m in Sources */,
@@ -299,6 +313,7 @@
 				18A08B2A1CCE1D5C0089E6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
